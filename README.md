@@ -12,3 +12,25 @@ Runtime Environment:
  OS Platform: Windows
  RID:         win10-x64
 ```
+
+```
+> cd .\Test
+> dotnet restore
+> dotnet test
+Build started, please wait...
+Build completed.
+
+Test run for .\FSharpNETCoreSandbox\Test\bin\Debug\netcoreapp1.1\Test.dll(.NETCoreApp,Version=v1.1)
+Microsoft (R) Test Execution Command Line Tool Version 15.0.0.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+...
+
+
+module: int value, 1
+module: string value, string
+module: record, null
+module: struct record, {V = 0;}
+static property: record, {V = 1;}
+static property: struct record, {V = 1;}
+```
