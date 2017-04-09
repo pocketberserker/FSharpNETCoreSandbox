@@ -1,10 +1,10 @@
 ```
-PS C:\workspace\fsharp\FSharpNETCoreSandbox> dotnet --info
-.NET Command Line Tools (1.0.0-rc4-004771)
+> dotnet --info
+.NET Command Line Tools (1.0.0)
 
 Product Information:
- Version:            1.0.0-rc4-004771
- Commit SHA-1 hash:  d881d45b75
+ Version:            1.0.0
+ Commit SHA-1 hash:  e53429feb4
 
 Runtime Environment:
  OS Name:     Windows
@@ -12,4 +12,3 @@ Runtime Environment:
  OS Platform: Windows
  RID:         win10-x64
 ```
-
